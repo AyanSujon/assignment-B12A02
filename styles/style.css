@@ -26,11 +26,32 @@
 body{
   background-color: #F5F8FF;
 }
+
+/* comon style */
+.comon-title-color{
+  color: #E95A08;
+}
+.comon-title{
+  color: #000000;
+  font-size: 3.125rem;
+  font-weight: 700;
+  text-align: center;
+}
+.section-subtitle{
+  color: rgba(0, 0, 0, 0.5);
+  text-align: center;
+  max-width: 888px;
+  font-size: 1.375rem;
+  margin: auto;
+  margin-top: 15px;
+  margin-bottom: 50px;
+}
 /* Header Section start */
 .header-area{
     max-width: 1140px;
     margin: 0 auto;
     padding: 0 20px;
+    margin-bottom: 120px;
 }
 .brand img{
   max-width: 135px;
@@ -69,8 +90,34 @@ body{
 }
 
 /* Hero Section Start */
-
-
+.header-area{
+  padding: 0;
+}
+.hero-left, 
+.hero-right{
+  width: 50%;
+}
+.hero-left, .navber{
+  
+  padding: 0 20px;
+  margin-top: 13px;
+}
+.hero-title{
+  font-size: 4.063rem;
+  font-family: "Noto Serif", serif;
+  font-weight: 400;
+  color: #000000;
+  text-transform: uppercase;
+}
+.hero-subtitle{
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.375rem;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+}
+.hero-right img{
+  margin-top: 28px;
+}
 
 
 
@@ -135,7 +182,14 @@ body{
 
 /* `sm` applies to x-small devices (portrait phones, less than 576px)*/
 @media screen and (max-width: 575.98px) {
+  /* comon style */
+.comon-title{
+  font-size: 1.5rem;
+}
 
+.header-area{
+    margin-bottom: 65px;
+}
 .brand, .shopping-card{
   max-width: 100%;
 }
@@ -148,6 +202,28 @@ body{
 .brand img{
   max-width: 63px;
 }
+/* Hero Section Start */
+.hero-section{
+  flex-direction: column;
+}
+.hero-left{
+  order: 1;
+  width: 100%;
+}
+.hero-right{
+  order: 0;
+  width: 100%;
+}
+.hero-title{
+  font-size: 1.5rem;
+  width: 50%;
+  margin-top: 28px;
+  margin-bottom: 12px;
+}
+.hero-subtitle{
+  font-size: 0.875rem;
+}
+
 
 }
 
@@ -155,10 +231,20 @@ body{
 
 /* // `md` applies to small devices (landscape phones, less than 768px) */ 
 /* // `lg` applies to medium devices (tablets, less than 992px) */
-@media screen and (max-width: 767.98px) and (max-width: 991.98px) { 
+@media screen and (min-width: 576px) and (max-width: 991.98px) { 
 
 .brand img{
   max-width: 80px;
+}
+/* Hero Section Start */
+.hero-title{
+  font-size: 2rem;
+  width: 50%;
+  margin-top: 28px;
+  margin-bottom: 12px;
+}
+.hero-subtitle{
+  font-size: 0.875rem;
 }
 
 
