@@ -4,6 +4,9 @@
 /* `sm` applies to x-small devices (portrait phones, less than 576px)*/
 @media screen and (max-width: 575.98px) {
   /* comon style */
+.display-none{
+  display: none;
+}
 .comon-title{
   font-size: 1.5rem;
 }
@@ -44,7 +47,7 @@ section{
 }
 .hero-title{
   font-size: 1.5rem;
-  width: 50%;
+  width: 70%;
   margin-top: 28px;
   margin-bottom: 12px;
 }
@@ -99,6 +102,10 @@ section{
 /* // `md` applies to small devices (landscape phones, less than 768px) */ 
 /* // `lg` applies to medium devices (tablets, less than 992px) */
 @media screen and (min-width: 576px) and (max-width: 991.98px) { 
+  /* comon style */
+.display-none{
+  display: none;
+}
 
 .brand img{
   max-width: 80px;
@@ -125,17 +132,17 @@ section{
 .our-plants-cards-container{
   grid-template-columns: repeat(3, 170px);
 }
-/* .our-plants-card h5{
-  font-size: 1.5rem;
+.our-plants-card h5{
+  font-size: 1rem;
 
 }
 .our-plants-card h4{
-  font-size: 1.5rem;
+  font-size: 1rem;
 }
 .our-plants-card a{
-  font-size: 1.5rem;
+  font-size: 1rem;
   padding: 19px 30px;
-} */
+}
 
 
  }
