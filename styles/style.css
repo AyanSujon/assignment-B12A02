@@ -18,17 +18,39 @@
   font-style: normal;
 } */
 
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #F5F8FF;
+}
+/* Header Section start */
 .header-area{
     max-width: 1140px;
     margin: 0 auto;
-    background-color: aqua;
+    padding: 0 20px;
+}
+.brand img{
+  max-width: 135px;
 }
 .navber{
-    padding-top: 24px;
+    padding-top: 20px;
 }
-.menubar ul li{
-    margin-right: 48px;
-    
+.nav-link{
+  padding: 5px 4px;
+}
+.shopping-logo{
+  max-width: 113px;
+}
+.nav-box ul{
+  display: flex;
+  justify-content: space-between;
+}
+.nav-item{
+  margin-right: 48px;
+
 }
 .menubar ul li a{
     color: #8987A1;
@@ -46,6 +68,23 @@
     font-weight: 700;
 }
 
+/* Hero Section Start */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -57,16 +96,74 @@
  .footer-area{
     max-width: 1140px;
     margin: 0 auto;
+    padding: 0 20px;
  }
  .footer-area{
     max-width: 1140px;
     margin: 0 auto;
+    padding: 0 20px;
  }
 
 
 
-@media screen and (min-width: 576px) {
-  /* .header-area .navbar ul {
-    display: none !important;
-  } */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* Responsive Media Query */
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px)*/
+@media screen and (max-width: 575.98px) {
+
+.brand, .shopping-card{
+  max-width: 100%;
 }
+.shopping-logo{
+  max-width: 63px;
+}
+.display-none{
+  display: none;
+}
+.brand img{
+  max-width: 63px;
+}
+
+}
+
+
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */ 
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media screen and (max-width: 767.98px) and (max-width: 991.98px) { 
+
+.brand img{
+  max-width: 80px;
+}
+
+
+
+
+
+
+ }

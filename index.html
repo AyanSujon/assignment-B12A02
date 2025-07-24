@@ -13,19 +13,34 @@
     <header class="header-area">
         <nav class="flex justify-between navber items-center	">
             <div class="brand">
-                <img src="./assets/logo.png" alt="Site Logo">
+                <img  src="./assets/logo.png" alt="Site Logo">
             </div>
             <div class="menubar flex items-center justify-between">
-                 <ul class="sm:hidden">
-                    <li class="inline-block"><a href="#">Home</a></li>
-                    <li class="inline-block"><a href="#">Shop</a></li>
-                    <li class="inline-block"><a href="#">About us</a></li>
-                </ul>
+                <div class="nav-box display-none">
+                    <ul>
+                        <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                        <li class="nav-item"><a class="nav-link"  href="#">Shop</a></li>
+                        <li class="nav-item"><a class="nav-link" href="#">About us</a></li>
+                    </ul>
+                </div>
                 <div class="shopping-card flex justify-center items-center">
-                    <a class=""><span class="inline-block align-middle"><img src="./assets/shopping-cart.png" alt="shopping cart"></span> Cart ($56)</a>
+                    <a class="nav-link"><span class="inline-flex align-middle"><img class="w-full" src="./assets/shopping-cart.png" alt="shopping cart"></span> Cart ($56)</a>
                 </div>
             </div>
         </nav>
+
+        <!-- Hero Section Start -->
+         <div class="hero-section flex justify-between items-center h-screen">
+            <div class="hero-left">
+            <h1 class="hero-title">ALWAYS FRESH FLOWERS</h1>
+            <p class="hero-subtitle">
+                Indulge your senses with the beauty and fragrance of our fresh flower shop. From classic roses to exotic blooms, we offer a wide variety of fresh flowers that are perfect for any occasion. 
+            </p>
+            </div>
+            <div class="hero-right">
+                <img src="./assets/hero-flower.png" alt="Hero flower">
+            </div>
+         </div>
     </header>
     <main class="main-content-area">
 
