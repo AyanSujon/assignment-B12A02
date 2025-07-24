@@ -1,0 +1,140 @@
+
+ /* Responsive Media Query */
+
+/* `sm` applies to x-small devices (portrait phones, less than 576px)*/
+@media screen and (max-width: 575.98px) {
+  /* comon style */
+.comon-title{
+  font-size: 1.5rem;
+}
+/* comon style */
+section{
+    padding: 0 14px;
+    margin-bottom: 65px;
+}
+
+
+
+.header-area{
+    margin-bottom: 65px;
+}
+.brand, .shopping-card{
+  max-width: 100%;
+}
+.shopping-logo{
+  max-width: 63px;
+}
+.display-none{
+  display: none;
+}
+.brand img{
+  max-width: 63px;
+}
+/* Hero Section Start */
+.hero-section{
+  flex-direction: column;
+}
+.hero-left{
+  order: 1;
+  width: 100%;
+}
+.hero-right{
+  order: 0;
+  width: 100%;
+}
+.hero-title{
+  font-size: 1.5rem;
+  width: 50%;
+  margin-top: 28px;
+  margin-bottom: 12px;
+}
+.hero-subtitle{
+  font-size: 0.875rem;
+}
+/* Our Plants Section Start */
+.comon-title{
+  font-size: 1.5rem;
+}
+.section-subtitle{
+  max-width: 336px;
+  font-size: 0.875rem;
+  margin-top: 15px;
+  margin-bottom: 28px;
+}
+.our-plants-card{
+  max-width: 170px;
+}
+.our-plants-cards-container{
+  grid-template-columns: repeat(2, 170px);
+}
+.our-plants-card h5{
+  margin-bottom: 10px;
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: "Inter", sans-serif;
+}
+.our-plants-card h4{
+  font-size: 1rem;
+  font-weight: 700;
+  font-family: "Inter", sans-serif;
+}
+.our-plants-card a{
+  font-size: 1rem;
+  font-family: "Inter", sans-serif;
+  padding: 19px 30px;
+}
+
+
+
+
+
+
+
+
+}
+
+
+
+/* // `md` applies to small devices (landscape phones, less than 768px) */ 
+/* // `lg` applies to medium devices (tablets, less than 992px) */
+@media screen and (min-width: 576px) and (max-width: 991.98px) { 
+
+.brand img{
+  max-width: 80px;
+}
+/* Hero Section Start */
+.hero-title{
+  font-size: 2rem;
+  width: 50%;
+  margin-top: 28px;
+  margin-bottom: 12px;
+}
+.hero-subtitle{
+  font-size: 0.875rem;
+}
+/* Our Plants Section Start */
+.comon-title{
+  font-size: 2rem;
+}
+.section-subtitle{
+  font-size: 1rem;
+  margin-top: 15px;
+  margin-bottom: 28px;
+}
+.our-plants-cards-container{
+  grid-template-columns: repeat(3, 170px);
+}
+/* .our-plants-card h5{
+  font-size: 1.5rem;
+
+}
+.our-plants-card h4{
+  font-size: 1.5rem;
+}
+.our-plants-card a{
+  font-size: 1.5rem;
+  padding: 19px 30px;
+} */
+
+
+ }
