@@ -23,9 +23,29 @@
     margin: 0 auto;
     background-color: aqua;
 }
-/* .navber{
-    align-items: center;
-} */
+.navber{
+    padding-top: 24px;
+}
+.menubar ul li{
+    margin-right: 48px;
+    
+}
+.menubar ul li a{
+    color: #8987A1;
+    font-size: 1rem;
+    font-weight: 700;
+    transition: all linear .3s;
+}
+.menubar ul li a:hover, 
+.menubar ul li a:active{
+    color: #252432;
+}
+.shopping-card a{
+    color: #252432;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
 
 
 
@@ -42,3 +62,11 @@
     max-width: 1140px;
     margin: 0 auto;
  }
+
+
+
+@media screen and (min-width: 576px) {
+  /* .header-area .navbar ul {
+    display: none !important;
+  } */
+}
