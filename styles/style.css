@@ -164,8 +164,14 @@ section{
   gap: 20px;
   justify-content: center;
 }
-
-
+/* Flower & Plants Lover */
+.plannts-lover{
+  
+}
+.plannts-lover-image,
+.plannts-lover-info{
+  max-width: 50%;
+}
 
 
 

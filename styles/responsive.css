@@ -113,7 +113,7 @@ section{
 /* Hero Section Start */
 .hero-title{
   font-size: 2rem;
-  width: 50%;
+  width: 100%;
   margin-top: 28px;
   margin-bottom: 12px;
 }
@@ -129,6 +129,7 @@ section{
   margin-top: 15px;
   margin-bottom: 28px;
 }
+
 .our-plants-cards-container{
   grid-template-columns: repeat(3, 170px);
 }
@@ -141,7 +142,7 @@ section{
 }
 .our-plants-card a{
   font-size: 1rem;
-  padding: 19px 30px;
+  padding: 19px 35px;
 }
 
 
