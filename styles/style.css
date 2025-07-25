@@ -215,12 +215,12 @@ section{
   gap: 25px;
 }
 .latest-deals-box-one{
-  background-image: url('./assets/deal-bloom.png');
+  background-image: url('../assets/deal-bloom.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
 .latest-deals-box-two{
-  background-image: url('/assets/deal-zabo.png');
+  background-image: url('../assets/deal-zabo.png');
   background-size: cover;
   background-repeat: no-repeat;
   font-size: 2.5rem;
@@ -232,7 +232,7 @@ section{
   font-size: 1.75rem !important;
 }
 .latest-deals-box-three{
-  background-image: url('/assets/deal-ana.png');
+  background-image: url('../assets/deal-ana.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
