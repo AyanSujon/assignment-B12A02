@@ -30,7 +30,6 @@ body{
 section{
     max-width: 1140px;
     margin: 0 auto;
-    padding: 0 20px;
     margin-bottom: 120px;
 }
 .comon-title-color{
@@ -166,13 +165,48 @@ section{
 }
 /* Flower & Plants Lover */
 .plannts-lover{
-  
+  gap: 60px;
+  padding-top: 50px;
 }
 .plannts-lover-image,
 .plannts-lover-info{
   max-width: 50%;
 }
+.plannts-lover-image{
+  position: relative;
+}
+.plannts-lover-image figure{
+  max-width: 540px;
+}
+.plannts-lover-bedge{
+  position: absolute;
+  top: -116px;
+  right: -100px;
+  object-fit: cover;
+  max-width: 286px;
+}
+ .plannts-lover-info{
+  padding-left: 15px;
+ }
+ .plannts-lover-info ul {
+  list-style-type: disc;
+  max-width: 540px;
+  padding-left: 60px;
+  margin-top: 20px;
 
+}
+ .plannts-lover-info ul li{
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.375rem;
+  font-weight: 400;
+  margin-bottom: 20px;
+}
+.plannts-lover-title{
+  color: #000000;
+  font-size: 3.125rem;
+  font-weight: 700;
+  padding: 0 15px;
+}
 
 
 
@@ -202,7 +236,6 @@ section{
     margin: 0 auto;
     padding: 0 20px;
  }
-
 
 
 

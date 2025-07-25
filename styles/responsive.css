@@ -87,8 +87,36 @@ section{
   font-family: "Inter", sans-serif;
   padding: 19px 30px;
 }
+/* Flower & Plants Lover */
+.plannts-lover{
+  flex-direction: column;
+  padding-top: 0;
+  gap: 18px;
+}
+.plannts-lover-image,
+.plannts-lover-info{
+  max-width:100%;
+}
+.plannts-lover-image figure{
+  width: 100%;
+}
+.plannts-lover-info{
+  padding-left: 0;
+ }
+.plannts-lover-title{
 
-
+  font-size: 1.5rem;
+  padding: 0;
+}
+.plannts-lover-info ul {
+  padding-left: 27px;
+  margin-top: 16px;
+}
+ .plannts-lover-info ul li{
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 0.875rem;
+  font-weight: 400;
+  margin-bottom: 16px;}
 
 
 
@@ -144,6 +172,50 @@ section{
   font-size: 1rem;
   padding: 19px 35px;
 }
+/* Flower & Plants Lover */
+.plannts-lover{
+  flex-direction: column;
+  padding-top: 0;
+  gap: 18px;
+
+}
+.plannts-lover-image,
+.plannts-lover-info{
+  max-width:100%;
+
+}
+.plannts-lover-image figure{
+  width: 100%;
+}
+.plannts-lover-info{
+  padding-left: 0;
+ }
+.plannts-lover-title{
+
+  font-size: 1.5rem;
+  padding: 0;
+}
+.plannts-lover-info ul {
+  padding-left: 27px;
+  margin-top: 16px;
+}
+ .plannts-lover-info ul li{
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 0.875rem;
+  font-weight: 400;
+  margin-bottom: 16px;}
+
+
+
+
+
+
+
+
+
+
+
+
 
 
  }
