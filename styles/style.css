@@ -333,32 +333,44 @@ section{
 .news-letter form .news-letter-btn:hover{
   background-color: #111111;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* Footer Section Start  */
  .footer-area{
     max-width: 1140px;
     margin: 0 auto;
-    padding: 0 20px;
+    padding: 50px 20px;
+    display: grid;
+    grid-template-columns: 2fr repeat(3, 1fr);
+    gap: 20px;
  }
- .footer-area{
-    max-width: 1140px;
-    margin: 0 auto;
-    padding: 0 20px;
- }
-
-
+.footer-box img{
+  max-width: 135px;
+  margin-bottom: 16px;
+}
+.footer-box p{
+color:rgba(0, 0, 0, 0.5);
+font-size: 1.375rem;
+font-weight: 400;
+font-family: "Inter", sans-serif;
+padding-right:60px;
+}
+.footer-box ul li{
+  margin-bottom: 26px
+}
+.footer-box ul li a{
+color: #6B7280;
+font-size: 1rem;
+font-weight: 400;
+font-family: "Inter", sans-serif;
+transition: all linear .3s;
+}
+.footer-box ul li a:hover{
+color: #E95A08;
+}
+.social-icon{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
 
 
