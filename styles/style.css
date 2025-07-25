@@ -286,9 +286,53 @@ section{
   text-decoration-line: underline;
   padding: 5px;
 }
+/* Join the colorful Bunch section start */
+.news-letter{
+  width: 100%;
+  background-image: url('../assets/news-letter-bg.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 195px 0;
+}
+.news-letter h3{
+  color: #ffffff;
+  margin-bottom: 23px;
+}
+.news-letter form{
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 830px;
+  color: rgba(0, 0, 0, .5);
+  background-color: #ffffff;
+}
+.news-letter form .news-letter-email{
+  width: 75%;
+  padding: 15px 20px;
+  outline: none;
+  border: 1px solid #ffffff;
+  transition: all linear .3s;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1rem;
+  font-weight: 400;
+  font-family: "Inter", sans-serif;
+}
+.news-letter form .news-letter-email:focus{
+  border: 1px solid #E95A08;
+}
 
-
-
+.news-letter form .news-letter-btn{
+  padding: 19px 53px;
+  background-color: #E95A08;
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  transition: all linear .3s;
+}
+.news-letter form .news-letter-btn:hover{
+  background-color: #111111;
+}
 
 
 

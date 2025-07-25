@@ -127,8 +127,17 @@ section{
 .latest-deals-box a{
   font-size: 1rem !important;
 }
+/* Join the colorful Bunch section start */
+.news-letter{
+  padding: 110px 0;
+}
+.news-letter form{
+  max-width: 320px;
+}
+.news-letter form .news-letter-btn{
+  padding: 19px 12px;
 
-
+}
 
 
 
@@ -238,8 +247,17 @@ section{
 .latest-deals-box a{
   font-size: 1rem !important;
 }
+/* Join the colorful Bunch section start */
+.news-letter{
+  padding: 110px 0;
+}
+.news-letter form{
+  max-width: 450px;
+}
+.news-letter form .news-letter-btn{
+  padding: 19px 12px;
 
-
+}
 
 
 
