@@ -215,7 +215,7 @@ section{
   gap: 25px;
 }
 .latest-deals-box-one{
-  background-image: url('/assets/deal-bloom.png');
+  background-image: url('./assets/deal-bloom.png');
   background-size: cover;
   background-repeat: no-repeat;
 }
