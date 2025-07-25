@@ -15,9 +15,6 @@ section{
     padding: 0 14px;
     margin-bottom: 65px;
 }
-
-
-
 .header-area{
     margin-bottom: 65px;
 }
@@ -63,7 +60,6 @@ section{
   font-size: 0.875rem;
   margin-top: 15px;
   margin-bottom: 28px;
-  
 }
 .our-plants-card{
   max-width: 170px;
@@ -104,7 +100,6 @@ section{
   padding-left: 0;
  }
 .plannts-lover-title{
-
   font-size: 1.5rem;
   padding: 0;
 }
@@ -115,12 +110,10 @@ section{
  .plannts-lover-info ul li{
   font-size: 0.875rem;
   margin-bottom: 16px;}
-
 /* Latest  Deals section start */
 .latest-deals-main-container{
   grid-template-columns: 1fr;
 }
-
 .latest-deals-box h4{
   font-size: 1.25rem !important;
 }
@@ -136,7 +129,6 @@ section{
 }
 .news-letter form .news-letter-btn{
   padding: 19px 12px;
-
 }
 /* Footer Section Start  */
  .footer-area{
@@ -145,29 +137,8 @@ section{
     padding: 50px 20px;
     display: grid;
     grid-template-columns: 1fr;
-
  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 }
-
-
 
 /* // `md` applies to small devices (landscape phones, less than 768px) */ 
 /* // `lg` applies to medium devices (tablets, less than 992px) */
@@ -176,7 +147,6 @@ section{
 .display-none{
   display: none;
 }
-
 .brand img{
   max-width: 80px;
 }
@@ -199,7 +169,6 @@ section{
   margin-top: 15px;
   margin-bottom: 28px;
 }
-
 .our-plants-cards-container{
   grid-template-columns: repeat(3, 170px);
 }
@@ -223,7 +192,6 @@ section{
 .plannts-lover-info{
   max-width:100%;
   margin: 0 auto;
-
 }
 .plannts-lover-image figure{
   width: 100%;
@@ -248,7 +216,6 @@ section{
   grid-template-columns: 1fr;
   padding: 0 20px;
 }
-
 .latest-deals-box h4{
   font-size: 1.25rem !important;
 }
@@ -264,13 +231,13 @@ section{
 }
 .news-letter form .news-letter-btn{
   padding: 19px 12px;
-
 }
-
-
-
-
-
-
-
+/* Footer Section Start  */
+ .footer-area{
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 50px 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+ }
  }

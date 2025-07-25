@@ -1,23 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
-
-
-/* .noto-serif-font{
-  font-family: "Noto Serif", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
-}
-
-.inter-font {
-  font-family: "Inter", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-} */
-
+/* Universel Style */
 *{
   margin: 0;
   padding: 0;
@@ -26,7 +9,6 @@
 body{
   background-color: #F5F8FF;
 }
-
 section{
     max-width: 1140px;
     margin: 0 auto;
@@ -74,7 +56,6 @@ section{
 }
 .nav-item{
   margin-right: 48px;
-
 }
 .menubar ul li a{
     color: #8987A1;
@@ -101,7 +82,6 @@ section{
   width: 50%;
 }
 .hero-left, .navber{
-  
   padding: 0 20px;
   margin-top: 13px;
 }
@@ -121,13 +101,11 @@ section{
 .hero-right img{
   margin-top: 28px;
 }
+
 /* Our Plants Section Start */
-
-
 .our-plants-card{
   text-align: center;
   max-width: 270px;
-  
 }
 .our-plants-card h5{
   margin-top: 30px;
@@ -194,7 +172,6 @@ section{
   max-width: 540px;
   padding-left: 60px;
   margin-top: 20px;
-
 }
  .plannts-lover-info ul li{
   color: rgba(0, 0, 0, 0.5);
@@ -208,6 +185,7 @@ section{
   font-weight: 700;
   padding: 0 15px;
 }
+
 /* Latest  Deals section start */
 .latest-deals-main-container{
   display: grid;
@@ -236,7 +214,6 @@ section{
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 .latest-deals-box{
   text-align: center;
   padding: 65px 0;
@@ -247,7 +224,6 @@ section{
   align-items: center;
   z-index: 1;
 }
-
 .latest-deals-box h4,
 .latest-deals-box a
 {
@@ -263,7 +239,6 @@ section{
   height: 100%;
   z-index: 0;
 }
-
 .latest-deals-box-two{
   grid-row: span 2;
   display: flex;
@@ -286,6 +261,7 @@ section{
   text-decoration-line: underline;
   padding: 5px;
 }
+
 /* Join the colorful Bunch section start */
 .news-letter{
   width: 100%;
@@ -320,7 +296,6 @@ section{
 .news-letter form .news-letter-email:focus{
   border: 1px solid #E95A08;
 }
-
 .news-letter form .news-letter-btn{
   padding: 19px 53px;
   background-color: #E95A08;
@@ -333,6 +308,7 @@ section{
 .news-letter form .news-letter-btn:hover{
   background-color: #111111;
 }
+
 /* Footer Section Start  */
  .footer-area{
     max-width: 1140px;
@@ -342,7 +318,7 @@ section{
     grid-template-columns: 2fr repeat(3, 1fr);
     gap: 20px;
  }
-.footer-box img{
+.footer-box a img{
   max-width: 135px;
   margin-bottom: 16px;
 }
@@ -368,8 +344,9 @@ color: #E95A08;
 }
 .social-icon{
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
+  gap: 24px;
 }
 
 
