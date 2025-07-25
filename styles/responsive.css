@@ -138,6 +138,10 @@ section{
     display: grid;
     grid-template-columns: 1fr;
  }
+.footer-box p{
+font-size: 1rem;
+padding-right: 0px;
+}
 }
 
 /* // `md` applies to small devices (landscape phones, less than 768px) */ 
@@ -168,6 +172,7 @@ section{
   font-size: 1rem;
   margin-top: 15px;
   margin-bottom: 28px;
+  max-width: 550px;
 }
 .our-plants-cards-container{
   grid-template-columns: repeat(3, 170px);
