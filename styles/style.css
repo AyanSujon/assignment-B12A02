@@ -208,8 +208,52 @@ section{
   font-weight: 700;
   padding: 0 15px;
 }
+/* atest  Deals section start */
+.latest-deals-main-container{
+  display: grid;
+  grid-template-columns: 1fr 2fr ;
+  gap: 25px;
+}
+.latest-deals-box-one{
+  background-image: url('/assets/deal-bloom.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
 
-
+.latest-deals-box{
+  background-color: #E95A08;
+  text-align: center;
+  padding: 65px 0;
+  border-radius: 22px;
+  overflow: hidden;
+  position: relative;
+  z-index: 6;
+}
+/* .latest-deals-box::after{
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, .4);
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+} */
+.latest-deals-box h4{
+  color: #ffffff;
+  font-size: 1.25rem;
+  font-weight: 700;
+  font-family: "Noto Serif", serif;
+  margin-bottom: 19px;
+}
+.latest-deals-box a{
+  color: #ffffff;
+  font-size: 1rem;
+  font-weight: 600;
+  font-family: "Inter", sans-serif;
+  text-decoration-line: underline;
+  padding: 5px;
+}
 
 
 
