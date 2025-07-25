@@ -145,12 +145,12 @@ section{
   margin-bottom: 30px;
 }
 .our-plants-card a{
-  display: inline-block;
+  display: block;
   color: #ffffff;
   font-size: 1rem;
   font-weight: 600;
   font-family: "Inter", sans-serif;
-  padding: 19px 80px;
+  padding: 19px 0;
   background-color: #E95A08;
   transition: all linear .3s;
 }
@@ -167,6 +167,7 @@ section{
 .plannts-lover{
   gap: 60px;
   padding-top: 50px;
+  margin: 0 auto;
 }
 .plannts-lover-image,
 .plannts-lover-info{
