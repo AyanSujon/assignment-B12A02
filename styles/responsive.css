@@ -116,6 +116,33 @@ section{
   font-size: 0.875rem;
   margin-bottom: 16px;}
 
+/* Latest  Deals section start */
+.latest-deals-main-container{
+  grid-template-columns: 1fr;
+}
+
+.latest-deals-box h4{
+  font-size: 1.25rem !important;
+}
+.latest-deals-box a{
+  font-size: 1rem !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -199,7 +226,18 @@ section{
  .plannts-lover-info ul li{
   font-size: 1rem;
   margin-bottom: 16px;}
+/* Latest  Deals section start */
+.latest-deals-main-container{
+  grid-template-columns: 1fr;
+  padding: 0 20px;
+}
 
+.latest-deals-box h4{
+  font-size: 1.25rem !important;
+}
+.latest-deals-box a{
+  font-size: 1rem !important;
+}
 
 
 
